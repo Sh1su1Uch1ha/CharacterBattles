@@ -14,19 +14,12 @@
         <!-- Sidebar -->
         <%= render 'shared/sidebar' %>
         <!-- /#sidebar-wrapper -->
-
+        <%= render 'shared/header' %>
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container">
                 <div class="row">
-                  <div class="col-lg-4">
-                    <button type="button" class="hamburger is-closed shifted-left" data-toggle="offcanvas">
-                        <span class="hamb-top"></span>
-                        <span class="hamb-middle"></span>
-                        <span class="hamb-bottom"></span>
-                    </button>
-                  </div>
-                    <div class="col-lg-8 shifted-right">
+                    <div class="col-lg-12">
                       <%= yield %>
                     </div>
                 </div>
