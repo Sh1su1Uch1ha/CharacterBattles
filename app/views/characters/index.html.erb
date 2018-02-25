@@ -1,0 +1,6 @@
+<% @characters.each do |character|%>
+  <div class = 'jumbotron'>
+    <%= character.name %>
+    <%= image_tag ("characters/#{character.image}") %>
+  </div>
+<%end%>
